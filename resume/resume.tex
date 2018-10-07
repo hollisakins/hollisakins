@@ -1,0 +1,157 @@
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,letterpaper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{red} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{multicol}
+
+\usepackage[scale=0.84]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, un to adjust the width of the space allocated to your name
+
+
+%----------------------------------------------------------------------------------------
+%   NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Hollis} % Your first name
+\familyname{Akins} % Your last name
+% All information in this block is optional, comment out any lines you don't need
+%\title{Physics Student}
+\mobile{(336) 681-8118}
+\email{hollis.akins@gmail.com}
+\address{Box 3039, 1115 8th Ave, Grinnell, IA 50112}
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"To work in a firm with a professional work driven environment where I can utilize and apply my knowledge." -- Tarun}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%   EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\textit{Education}}
+
+\cventry{fall 2018--}{Grinnell College}{Dean's Scholar}{Grinnell, IA}{}{
+Intended Physics major, expected graduation May 2022\\
+Current coursework includes Modern Physics (including relativity, quantum physics, and thermal/statistical physics) and Differential Equations.\\
+}
+
+\cventry{2014--2018}{The Early College at Guilford}{}{Greensboro, NC}{}{
+Public high-school dual-enrollment program with Guilford College\\
+Coursework included a three-semester introductory physics sequence, computational physics, multivariable calculus, geographic information systems, experience design, observational astronomy, and several semesters of studio art.  
+}
+
+
+
+%----------------------------------------------------------------------------------------
+%   EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\textit{Experience}}
+%\section{Work Experience}
+%\section{Research Experience}
+
+%%%%
+% Include different sections here as you see fit, re-order if necessary, comment out listing that do not apply
+%%%%
+
+
+%\cventry{fall 2018--}{Staff Member}{Spencer Grill}{Grinnell, IA}{}{Helped with food and beverage preparation and customer service.  }
+
+\cventry{summer 2018}{Research Assistant}{Guilford College Cline Observatory}{Greensboro, NC}{}{Worked with Professor Don Smith at Guilford College to develop an automated data analysis / photometry pipeline and scripted observer system for the permanently mounted 16-inch telescope at the Cline observatory. 
+This system facilitates current and future student research on variable stars, star evolution, the accuracy and precision of our facility, and more. See more at [link]}
+
+\cventry{fall 2017}{Teaching Assistant}{Guilford College Art Dept.}{Greensboro, NC}{}{Served as a teaching assistant for the introductory darkroom photography class at Guilford College\\
+Primary duties included conducting class demonstrations, helping students with their work outside of class, and maintaining the cleanliness and function of the photography lab facilities}
+
+%\cventry{2017--2018}{Barista}{Starbucks Coffee Company}{Greensboro, NC}{}{Worked as a certified Starbucks Barista preparing food and beverages, maintaining store cleanliness, and satisfying any and all customer needs}
+
+%\cventry{2016--2018}{Office Assistant}{Harris Teeter Supermarkets}{Greensboro, NC}{}{Assisted managers in supervising front-end operations by counting and handling the cash in the store, performing daily bookkeeping tasks, working at the customer service desk, and cashiering as needed}
+
+
+
+
+\section{\textit{Selected Projects \& Awards}}
+
+\cvitem{may 2018}{Co-wrote a paper with Don Smith at Guilford College on the pedagogical power of the Lucky Imaging technique for photographing planets, published in the Oct. 2018 issue of \textit{The Physics Teacher}. This project began as a presentation for the Guilford Undergraduate Symposium in Apr. 2018 and was modified for publication. See more at {\color{red} https://doi.org/10.1119/1.5055339.}}
+
+\cvitem{2018--2019}{Recipient of the Dean's and National Merit Scholarships at Grinnell College}
+
+\cvitem{march 2018}{Honorable Mention in the SIAM Mathworks Math Modelling Challenge}
+
+%----------------------------------------------------------------------------------------
+%   OTHER THINGS
+%----------------------------------------------------------------------------------------
+
+\section{\textit{Skills}}
+
+\cvitem{computer}{Experienced in Python, \LaTeX, GNU/Linux, and MacOS. Some casual experience with HTML5/CSS3.}
+\cvitem{}{Proficient in Adobe Photoshop, Illustrator, InDesign, and Premiere}
+\cvitem{personal}{I am a detail-oriented independent learner, able to adapt quickly to new situations}
+\cvitem{interpersonal}{I work well on a team, working with other's ideas and contributing my own}
+
+
+
+
+\section{\textit{References}}
+
+\begin{multicols}{2}
+\cvitem{name}{Don Smith}
+\cvitem{title}{Associate Professor, Guilford College}
+\cvitem{mail}{dsmith4@guilford.edu}
+\vfill\null
+\columnbreak
+\cvitem{name}{blah blah}
+\cvitem{title}{Professor, somewhere}
+\cvitem{mail}{email@institution.edu}
+
+\end{multicols}
+%----------------------------------------------------------------------------------------
+%   COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
