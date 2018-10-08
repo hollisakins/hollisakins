@@ -1,0 +1,28 @@
+
+html {
+    background:#1a3b70;
+}
+
+h1 {
+    color:lightsteelblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    margin-left:20%;
+    margin-right:20%;
+    font-family:'Courier New', Courier, monospace;
+    font-size:14pt;
+    color:lightsteelblue;
+}
+
+a {
+    margin-left:20%;
+    margin-right:20%;
+    font-family:'Courier New', Courier, monospace;
+    font-size:14pt;
+    color:lightcoral;
+}
