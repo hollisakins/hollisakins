@@ -1,0 +1,116 @@
+<div style="width:100%; height:100%; display: block; position: absolute; background-color: black; z-index: 9999999999999; text-align:center; color:white;">this page is under construction!</div>
+
+<!--- <script src="header.js"></script>
+--->
+<style>
+.landing {
+	font-size:90pt;
+    font-weight: normal;
+    text-align:left;
+    width:560px;
+    height:100%;
+    top:40%;
+    left:calc(50% - 280px);
+    position:absolute;
+    opacity:1;
+    z-index:100 !important;
+    -webkit-animation: txt 2.5s 1s 1 ease forwards;
+    animation: txt 2.5s 1s 1 ease forwards;
+}
+.landing a {
+    text-decoration:none;
+    color:black;
+}
+
+p, .sitemap, .footer, nav {
+    opacity:0;
+    animation: header 0.5s 3s 1 normal forwards;
+}
+p {
+    z-index:0;
+}
+@-webkit-keyframes txt {
+    0% {
+        font-size:90pt;
+        top:40%;
+        left:calc(50% - 280px);
+        width:560px;
+        opacity:1;
+    }
+    15% {
+        font-size:97pt;
+        width:650px;
+    }
+    90% {
+        font-size:36pt;
+        top:112px;
+        left:20%;
+        width:560px;
+        opacity:1;
+    }
+    100% {
+        opacity:0;
+        font-size:36pt;
+        width:560px;
+        top:112px;
+        left:20%;
+    }
+}
+@keyframes txt {
+    0% {
+        font-size:90pt;
+        top:40%;
+        left:calc(50% - 280px);
+        width:560px;
+        opacity:1;
+    }
+    15% {
+        font-size:97pt;
+        width:650px;
+    }
+    90% {
+        font-size:36pt;
+        top:112px;
+        left:20%;
+        width:560px;
+        opacity:1;
+    }
+    100% {
+        opacity:0;
+        font-size:36pt;
+        width:560px;
+        top:112px;
+        left:20%;
+    }
+}
+
+@-webkit-keyframes header {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@keyframes header {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+</style>
+
+<div class='landing'>
+    <a href='home.html'>hollis akins</a>
+</div>
+<div class='sitemap'>
+    home
+</div>
+<p style='padding-top:110px;text-align:center;'>
+    Here will go all the content I want to put on the landing page.    
+</p>
+
+        
+<script src="footer.js"></script>
