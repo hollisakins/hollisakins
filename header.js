@@ -8,7 +8,7 @@ document.write("</head><body>");
 document.write("<div class='background-header'></div>")
 document.write("<nav>");
 document.write("<h1>");
-document.write("<a href='home.html'>hollis akins</a>");
+document.write("<a href='index.html'>hollis akins</a>");
 document.write("</h1>");
 document.write("<div class='menu'>");
 document.write("<div class='dropdown'>");
