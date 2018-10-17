@@ -212,7 +212,7 @@ a .dropbtn2 {
 .dropdown-content a {
 	-webkit-appearance: none;
     color: black;
-    padding: 12px 16px;
+    padding: 0;
 	text-decoration: none;
 	font-family: 'Times New Roman', Times, serif;
 	display: block;
