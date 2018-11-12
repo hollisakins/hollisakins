@@ -1,0 +1,11 @@
+\contentsline {chapter}{Introduction}{5}{chapter*.2}
+\contentsline {section}{Observatory Equipment}{5}{section*.3}
+\contentsline {section}{Project Goals}{5}{section*.4}
+\contentsline {chapter}{Overview of the Software}{7}{chapter*.5}
+\contentsline {section}{Programatic Image Calibration}{7}{section*.6}
+\contentsline {section}{Ensemble Photometry}{7}{section*.7}
+\contentsline {section}{Data Analysis}{7}{section*.8}
+\contentsline {chapter}{Preliminary Results}{9}{chapter*.9}
+\contentsline {section}{Variable Stars}{9}{section*.10}
+\contentsline {section}{Stellar Evolution}{10}{section*.11}
+\contentsfinish 
