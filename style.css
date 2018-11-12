@@ -507,3 +507,31 @@ p {
 	padding-left:20px;
 }
 
+
+
+.listing {
+	width:50%;
+	z-index:-1;
+	padding-top:15px;
+	padding-bottom:20px;
+	height:150px;
+	margin-bottom:0;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+}
+
+.listing img {
+	float:left;
+	height:150px;
+	width:250px;
+	object-fit: contain;
+}
+
+.listing p {
+	/* margin-left:320px; */
+	margin: 0;
+	font-size:12pt;
+    line-height:120%;
+	line-break: normal;
+}
