@@ -18,7 +18,7 @@ document.write("<div class='dropdown-content'>");
 document.write("</div></div>");
 
 document.write("<div class='dropdown'>");
-document.write("<a href='about.html'><button class='dropbtn'>about</button></a>");
+document.write("<a href='index.html'><button class='dropbtn'>about</button></a>");
 document.write("<div class='dropdown-content'>");
 document.write("</div></div>");
 
