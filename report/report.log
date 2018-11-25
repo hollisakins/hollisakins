@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 NOV 2018 09:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 NOV 2018 10:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -660,7 +660,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 
-] <dome.jpg, id=62, 374.39874pt x 281.05pt>
+] <dome.jpg, id=58, 374.39874pt x 281.05pt>
 File: dome.jpg Graphic file (type jpg)
  <use dome.jpg>
 Package pdftex.def Info: dome.jpg used on input line 27.
@@ -684,13 +684,17 @@ File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 LaTeX Font Info:    Try loading font information for OT1+zplm on input line 29.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-) [3 <./dome.jpg>] [4]
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 52.
+)
+
+LaTeX Warning: Marginpar on page 3 moved.
+
+[3 <./dome.jpg>] [4]
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 57.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 52.
+(Font)              scaled to size 8.50006pt on input line 57.
 
 
 LaTeX Warning: Marginpar on page 5 moved.
@@ -702,57 +706,60 @@ LaTeX Warning: Marginpar on page 5 moved.
 
 ] [6] [7] [8
 
-] <V047Lac.png, id=110, 849.1725pt x 627.84563pt>
+] <V047Lac.png, id=106, 849.1725pt x 627.84563pt>
 File: V047Lac.png Graphic file (type png)
  <use V047Lac.png>
-Package pdftex.def Info: V047Lac.png used on input line 135.
+Package pdftex.def Info: V047Lac.png used on input line 138.
 (pdftex.def)             Requested size: 311.99911pt x 230.68019pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--137
+Underfull \hbox (badness 10000) in paragraph at lines 138--140
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--137
+Underfull \hbox (badness 10000) in paragraph at lines 138--140
 
  []
 
-<RRLyrae.png, id=112, 848.16875pt x 628.3475pt>
+<RRLyrae.png, id=108, 848.16875pt x 628.3475pt>
 File: RRLyrae.png Graphic file (type png)
  <use RRLyrae.png>
-Package pdftex.def Info: RRLyrae.png used on input line 140.
+Package pdftex.def Info: RRLyrae.png used on input line 143.
 (pdftex.def)             Requested size: 311.99269pt x 231.13306pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
+Underfull \hbox (badness 10000) in paragraph at lines 143--145
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
+Underfull \hbox (badness 10000) in paragraph at lines 143--145
 
  []
 
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 6.80005pt on input line 147.
-[9 <./V047Lac.png>]
+(Font)              scaled to size 6.80005pt on input line 150.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9 <./V047Lac.png>]
 
 LaTeX Warning: Marginpar on page 10 moved.
 
 
 LaTeX Warning: Marginpar on page 10 moved.
 
-<M34HR.png, id=120, 719.68875pt x 497.86pt>
+<M34HR.png, id=116, 719.68875pt x 497.86pt>
 File: M34HR.png Graphic file (type png)
  <use M34HR.png>
-Package pdftex.def Info: M34HR.png used on input line 156.
+Package pdftex.def Info: M34HR.png used on input line 159.
 (pdftex.def)             Requested size: 312.00784pt x 215.83806pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--158
+Underfull \hbox (badness 10000) in paragraph at lines 159--161
 
  []
 
 [10 <./RRLyrae.png>]
-LaTeX Font Info:    Try loading font information for TS1+pplj on input line 166.
+LaTeX Font Info:    Try loading font information for TS1+pplj on input line 169.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 )
@@ -764,29 +771,29 @@ Package bibentry Warning: You have used \nobibliography*
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 190.
 [11 <./M34HR.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 190.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 190.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 1BE556A7FE5A15CCA0CF40835C544BAC;1710.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 187.
+(rerunfilecheck)             Checksum: 082360F9CD963DFFB9202BBB4F9229B6;1586.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 190.
  ) 
 Here is how much of TeX's memory you used:
- 13069 strings out of 493014
- 184913 string characters out of 6133351
- 281193 words of memory out of 5000000
- 16308 multiletter control sequences out of 15000+600000
+ 13067 strings out of 493014
+ 184889 string characters out of 6133351
+ 282193 words of memory out of 5000000
+ 16307 multiletter control sequences out of 15000+600000
  74199 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,12n,45p,745b,385s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on report.pdf (11 pages, 262752 bytes).
+Output written on report.pdf (11 pages, 264788 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 141 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 2677 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 167 PDF objects out of 1000 (max. 8388607)
+ 137 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 2669 words of extra memory for PDF output out of 10000 (max. 10000000)
 
