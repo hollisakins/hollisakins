@@ -26,11 +26,23 @@
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 \usepackage{multicol}
 \usepackage{footmisc} % enabling footnotes.
-\usepackage[scale=0.84]{geometry} % Reduce document margins
+\usepackage[scale=0.89]{geometry} % Reduce document margins
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
 %\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, un to adjust the width of the space allocated to your name
 \usepackage{xpatch}% http://ctan.org/pkg/xpatch
 \xpatchcmd{\cvitem}{#3}{\small #3}{}{}
+
+\renewcommand*{\cventry}[7][.25em]{%
+  \cvitem[#1]{{\small\selectfont#2}}{%
+    {\bfseries#3}%
+    \ifthenelse{\equal{#4}{}}{}{, {\slshape#4}}%
+    \ifthenelse{\equal{#5}{}}{}{, #5}%
+    \ifthenelse{\equal{#6}{}}{}{, #6}%
+    .\strut%
+    \ifx&#7&%
+    \else{\newline{}\begin{minipage}[t]{\linewidth}\small#7\end{minipage}}\fi}}
+   
+ 
 
 %----------------------------------------------------------------------------------------
 %   NAME AND CONTACT INFORMATION SECTION
@@ -42,7 +54,10 @@
 %\title{Physics Student}
 \mobile{(336) 681-8118}
 \email{hollis.akins@gmail.com}
-\address{www.hollisakins.com\\Box 3039, 1115 8th Ave, Grinnell, IA 50112\\}
+\homepage{www.hollisakins.com}
+\extrainfo{\githubsocialsymbol~\linkedinsocialsymbol~hollisakins}
+\address{Box 3039, 1115 8th Ave}{Grinnell, IA 50112}
+
 %\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
 %\quote{"To work in a firm with a professional work driven environment where I can utilize and apply my knowledge." -- Tarun}
 
@@ -56,13 +71,12 @@
 %----------------------------------------------------------------------------------------
 %   EDUCATION SECTION
 %----------------------------------------------------------------------------------------
-
 \section{\textit{Education}}
 
-\cventry{Aug 2018 --}{Grinnell College}{Dean's Scholar}{Grinnell, IA}{}{
+\cventry{Aug 2018 -- Present}{Grinnell College}{Dean's Scholar}{Grinnell, IA}{}{
 B.A. Physics, expected graduation May 2022\\
 Coursework: modern physics, differential equations, archaeoastronomy, and video production \\
-Recipient of the Dean's Scholarship and National Merit Scholarship
+Recipient of the Dean's Scholarship (\$25,000/year) and National Merit Scholarship (\$2,000/year)
 }
 
 \cventry{Aug 2014 --\\May 2018}{The Early College at Guilford}{}{Greensboro, NC}{}{
@@ -86,11 +100,11 @@ Coursework: introductory physics, computational physics, multivariable calculus,
 %%%%
 
 
-\cventry{Aug 2018 --}{Staff Member}{Spencer Grill}{Grinnell, IA}{}{Assisted supervisors with food and beverage preparation and customer service.}
+\cventry{Aug 2018 -- Present}{Staff Member}{Spencer Grill}{Grinnell, IA}{}{Assisted supervisors with food and beverage preparation and customer service.}
 
 \cventry{May 2018 --\\Aug 2018}{Research Assistant}{Guilford College Cline Observatory}{Greensboro, NC}{}{%Developed a codebase for automatic data analysis and scripted observations to facilitate current and future student research on variable stars, stellar evolution, and more
-Developed an automated data analysis pipeline and scripted observer system for the permanently mounted 16-inch telescope at the Cline Observatory\\
-This system facilitates current and future student research on variable stars, stellar evolution, instrumentation, etc\\
+Developed an automated data analysis pipeline and scripted observer system for the Cline Observatory\\
+This system facilitates current and future student research on variable stars, stellar evolution, instrumentation, and more\\
  For more information and details, see {\color{red}www.hollisakins.com}}
 
 \cventry{Aug 2017 --\\Dec 2017}{Teaching Assistant}{Guilford College Art Dept.}{Greensboro, NC}{}{Instructed students in the introductory darkroom photography class at Guilford College\\
