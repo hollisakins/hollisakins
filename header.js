@@ -4,6 +4,15 @@ document.write("<head>");
 document.write("<title>Hollis Akins</title>");
 document.write("<meta charset='UTF-8'>");
 document.write("<link rel='stylesheet' href='style.css'>");
+document.write("<script async src='https://www.googletagmanager.com/gtag/js?id=UA-57804746-2'></script>")
+document.write("<script>")
+document.write("window.dataLayer = window.dataLayer || [];")
+document.write("function gtag(){dataLayer.push(arguments);}")
+document.write("gtag('js', new Date());")
+document.write("gtag('config', 'UA-57804746-2');")
+document.write("</script>")
+
+
 document.write("</head><body>");
 document.write("<div class='background-header'></div>")
 document.write("<nav>");
