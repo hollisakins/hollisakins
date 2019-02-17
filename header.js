@@ -4,6 +4,7 @@ document.write("<head>");
 document.write("<title>Hollis Akins</title>");
 document.write("<meta charset='UTF-8'>");
 document.write("<link rel='stylesheet' href='style.css'>");
+document.write("<link rel='icon' type='image/png' href='favicon-32x32.png' sizes='32x32' />")
 document.write("<script async src='https://www.googletagmanager.com/gtag/js?id=UA-57804746-2'></script>")
 document.write("<script>")
 document.write("window.dataLayer = window.dataLayer || [];")
