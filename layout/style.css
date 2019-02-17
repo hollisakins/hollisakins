@@ -1,0 +1,537 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+    html, body, div, span, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    abbr, address, cite, code,
+    del, dfn, em, img, ins, kbd, q, samp,
+    small, strong, sub, sup, var,
+    b, i,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section, summary,
+    time, mark, audio, video {
+        margin:0;
+        padding:0;
+        border:0;
+        outline:0;
+        font-size:100%;
+        vertical-align:baseline;
+        background:transparent;
+    }
+
+    body {
+        line-height:1;
+    }
+
+    article,aside,details,figcaption,figure,
+    footer,header,hgroup,menu,nav,section { 
+        display:block;
+    }
+
+    nav ul {
+        list-style:none;
+    }
+
+    blockquote, q {
+        quotes:none;
+    }
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content:'';
+        content:none;
+    }
+
+    a {
+        margin:0;
+        padding:0;
+        font-size:100%;
+        vertical-align:baseline;
+		background:transparent;
+		color:red;
+    }
+
+    /* change colours to suit your needs */
+    ins {
+        background-color:#ff9;
+        color:#000;
+        text-decoration:none;
+    }
+
+    /* change colours to suit your needs */
+    mark {
+        background-color:#ff9;
+        color:#000; 
+        font-style:italic;
+        font-weight:bold;
+    }
+
+    del {
+        text-decoration: line-through;
+    }
+
+    abbr[title], dfn[title] {
+        border-bottom:1px dotted;
+        cursor:help;
+    }
+
+    table {
+        border-collapse:collapse;
+        border-spacing:0;
+    }
+
+    /* change border colour to suit your needs */
+    hr {
+        display:block;
+        height:1px;
+        border:0;   
+        border-top:1px solid #cccccc;
+        margin:1em 0;
+        padding:0;
+    }
+
+    input, select {
+        vertical-align:middle;
+    }
+
+
+/* These are my personal style things */ 
+/* These are my personal style things */ 
+/* These are my personal style things */ 
+
+/* Dropdown Button */
+.menu {
+	margin-right:12%;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	z-index:50;
+}
+.dropbtn2 {
+	-webkit-appearance: none;
+    color: black;
+    padding: 0;
+	font-family: 'Times New Roman', Times, serif;
+	border: none;
+	font-size:13pt;
+	width:160px;
+	background-color: #dddddd;
+	text-align:left;
+	-webkit-transition: visibility 0s, opacity 0.2s linear;
+	transition: visibility 0s, opacity 0.2s linear;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown2 {
+	-webkit-appearance: none;
+	float:right;
+	padding-top: 0;
+	padding-right: 0;
+	position: relative;
+	-webkit-transition: visibility 0s, opacity 0.2s linear;
+	transition: visibility 0s, opacity 0.2s linear;
+	z-index:50;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+/* Links inside the dropdown */
+.dropdown-content2 a {
+	-webkit-appearance: none;
+    color: black;
+    padding: 0;
+	text-decoration: none;
+	font-family: 'Times New Roman', Times, serif;
+	display: block;
+	-webkit-transition: background-color 0.2s ease;
+	transition: background-color 0.2s ease;
+	z-index:4;
+}
+
+a .dropbtn2 {
+	-webkit-transition: background-color 0.2s ease;
+	transition: background-color 0.2s ease;
+	z-index:4;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content2 a:hover {background-color: #eee}
+
+
+/* Show the dropdown menu on hover */
+.dropdown2:hover .dropdown-content2 {
+	-webkit-appearance: none;
+	display: inline-block;
+	visibility: visible;
+	opacity:1;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown2:hover .dropbtn2 {
+    background-color: #eee;
+}
+
+.dropbtn {
+	-webkit-appearance: none;
+    color: black;
+    padding: 16px;
+	font-size: 21px;
+	font-family: 'Times New Roman', Times, serif;
+	border: none;
+	width:120px;
+	background-color: rgb(255,255,255);
+	z-index:4;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	-webkit-appearance: none;
+	float:right;
+	padding:0 0;
+	z-index:4;
+    position: relative;
+
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	-webkit-appearance: none;
+	display: block;
+	visibility:hidden;
+	opacity: 0;
+	-webkit-transition: visibility 0s, opacity 0.2s linear;
+	transition: visibility 0s, opacity 0.2s linear;
+	position: absolute; 
+	right: 0;
+	-webkit-background-color: #dddddd;
+    background-color: #dddddd;
+    min-width: 160px;
+	z-index: 4;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+	-webkit-appearance: none;
+    color: black;
+    padding: 10px;
+	text-decoration: none;
+	font-family: 'Times New Roman', Times, serif;
+	display: block;
+	-webkit-transition: background-color 0.2s ease;
+	transition: background-color 0.2s ease;
+	z-index:4;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #eeeeee;
+	z-index:4;	
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	-webkit-appearance: none;
+	display: block;
+	visibility: visible;
+	opacity:1;
+	z-index:4;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #eeeeee;
+}
+
+
+nav {
+    width:100%;
+	height:50px;
+	padding-top:110px;
+	margin-right:12%;
+	position: -webkit-fixed; /* Safari */
+	position: fixed;
+	z-index:4;
+	top:0;
+	opacity:1;
+}
+
+.background-header {
+	width:100%;
+	height:200px;
+	background-color:white;
+	position: fixed;
+	display:inline-block;
+	top:0;
+	z-index:1;
+
+}
+.background-footer {
+	width:100%;
+	height:70px;
+	background-color:white;
+	position: fixed;
+	display:inline-block;
+	bottom:0;
+}
+.footer {
+	text-align:center;
+	width:100%;
+	color:black;
+	font-size:10pt;
+	line-height:70px;
+	position:fixed;
+	z-index:2;
+	bottom:0;
+	opacity:1;
+
+}
+
+h1 {
+	font-size:36pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav h1 {
+    font-size:36pt;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 50px;
+    float:left;
+    margin-left:12%;
+	font-weight:200;
+}
+
+nav h1 a {
+    color:black;
+    text-decoration: none;
+}
+
+.header {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 200;
+    margin-left:20%;
+	margin-right:20%;
+	padding-top:50px;
+	z-index:-1;
+}
+.large {
+	font-size:45pt;
+}
+.small {
+    font-size: 27pt;
+}
+
+.sitemap {
+	color:black;
+	margin-left: 12%;
+	top:170px;
+	font-size:21px;
+	z-index:3;
+	position:fixed;
+}
+
+.center-statement {
+	font-family: 'Times New Roman', Times, serif;
+	text-align:center;
+	font-size:14pt;
+	padding-top:50px;
+	z-index:-1;
+}
+
+.resume-section {
+	text-align:center;
+	font-size:21pt;
+	font-weight:bold;
+	font-style: italic;
+	padding-top:30px;
+	z-index:-1;
+}
+.resume-item {
+	margin-left:28%;
+	margin-right:28%;
+	padding-top:10px;
+	font-style: italic;
+	font-weight: bold;
+	font-size:14pt;
+	padding-bottom:10px;
+	z-index:-1;
+}
+.resume-location {
+	white-space:nowrap;
+	font-weight:normal;
+	font-style:normal;
+	font-size:14pt;
+	z-index:-1;
+}
+.resume-date {
+	font-weight:normal;
+	font-style:normal;
+	float:right;
+	font-size:14pt;
+	z-index:-1;
+}
+.resume-description {
+	margin-left:28%;
+	margin-right:28%;
+	padding-top:5px;
+	padding-left:25px;
+	line-height:120%;
+	z-index:-1;
+}
+
+p {
+    font-size:12pt;
+    padding-top:15px;
+    margin-left:28%;
+    margin-right:28%;
+    line-height:120%;
+	columns: #000000;;
+	z-index:-1;
+}
+
+
+#carousel {
+	width: 100%;
+	height: calc(100% - 235px);
+	left:0;
+	top:235px;
+	position:absolute;
+	white-space:nowrap;
+}
+
+#carousel .slide {
+	display: inline-block;
+	position:relative;
+}
+
+#carousel .slide img {
+	height:100%;
+}
+
+
+#carousel .slide p {
+	position: relative;
+	padding-left:50px;
+	width:400px;
+	padding-right:400px;
+	height:100%;
+	top:75px;
+	overflow-x:scroll;
+	overflow-y:hidden;
+	overflow-wrap: break-word;
+	white-space:normal;
+	z-index:999999999;
+}
+
+#carousel .slide .container {
+    display: inline;
+	cursor: pointer;
+	top:-10px;
+	left:25px;
+	position:absolute;
+	z-index:5;
+	visibility:hidden;
+	opacity:0;
+
+}
+#carousel .slide:hover .container {
+    display: inline;
+	cursor: pointer;
+	top:25px;
+	left:25px;
+	position:absolute;
+	z-index:5;
+	visibility:visible;
+	opacity:1;
+	transition:0.4s;
+}
+.dropdown2:hover #carousel .slide:hover .container {
+    display: inline;
+	cursor: pointer;
+	top:45px;
+	left:15px;
+	position:absolute;
+	z-index:5;
+	visibility:hidden;
+	opacity:1;
+}
+.caption {
+	background-color:rgba(0,0,0,0.5);
+	color:white;
+	top: 0px;
+	left:30px;
+	font-size:11pt;
+	padding:10px;
+	width:350px;
+	height:55px;
+	opacity:0;
+	transition: 0.4s;
+	display: inline;
+	position: absolute;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+.change .caption {opacity:1;}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-5px, 3px);
+    transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-5px, -5px);
+    transform: rotate(45deg) translate(-4.5px, -5px);
+}
+
+.article {
+	position:absolute;
+	top:235px;
+	width:100%;
+}
+
+.article p img {
+	float:right;
+	width:200px;
+	padding-left:20px;
+}
+
+
+
+.listing {
+	width:50%;
+	z-index:-1;
+	padding-top:15px;
+	padding-bottom:20px;
+	height:150px;
+	margin-bottom:0;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+}
+
+.listing img {
+	float:left;
+	height:150px;
+	width:250px;
+	object-fit: contain;
+}
+
+.listing p {
+	/* margin-left:320px; */
+	margin: 0;
+	font-size:12pt;
+    line-height:120%;
+	line-break: normal;
+}
