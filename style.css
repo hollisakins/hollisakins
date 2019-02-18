@@ -396,10 +396,9 @@ p {
 
 #carousel {
 	width: 100%;
-	height: calc(100% - 210px);
+	height: calc(100% - 235px);
 	left:0;
-	bottom:0;
-	top:210px;
+	top:235px;
 	position:absolute;
 	white-space:nowrap;
 }
@@ -419,9 +418,8 @@ p {
 	padding-left:50px;
 	width:400px;
 	padding-right:400px;
-	height:calc(100% - 210px);
-	top:0px;
-	bottom:0;
+	height:100%;
+	top:75px;
 	overflow-x:scroll;
 	overflow-y:hidden;
 	overflow-wrap: break-word;

@@ -396,9 +396,9 @@ p {
 
 #carousel {
 	width: 100%;
-	height: calc(100% - 200px);
+	height: calc(100% - 235px);
 	left:0;
-	top:200px;
+	top:235px;
 	position:absolute;
 	white-space:nowrap;
 }
